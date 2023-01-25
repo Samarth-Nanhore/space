@@ -1,7 +1,7 @@
 /* this is required and for all  */
 
   @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bangers&family=Inter&family=Josefin+Sans&family=Montserrat&family=Noto+Sans&family=Open+Sans&family=Roboto&family=Sora&family=Source+Sans+Pro&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bangers&family=Inter&family=Josefin+Sans&family=Montserrat&family=Noto+Sans&family=Open+Sans&family=Pacifico&family=Roboto&family=Sora&family=Source+Sans+Pro&display=swap');
 
 *{
     margin: 0;
@@ -27,17 +27,20 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: teal;
-    color: #fff;
+    background-color: #f5f3ff;
+    color:#475569 ;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 .nav-links a{
-    color: #fff;
+    color: #475569;
 }
 
 /* logo */
 .logo{
     font-size: 32px;
+    font-family: 'Pacifico', cursive;
 }
 
 /* navbar menu */
@@ -48,7 +51,7 @@ li {
 }
 
 .menu li:hover {
-background-color: #4c9e9e;
+background-color: #94a3b8;
 border-radius: 5px;
 transition: 0.3s ease;
 }
