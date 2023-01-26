@@ -27,14 +27,14 @@ li {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f5f3ff;
-    color:#475569 ;
+    background-color: #d1d5db;
+    color:white ;
     margin: 5px;
     border-radius: 5px;
 }
 
 .nav-links a{
-    color: #475569;
+    color: white;
 }
 
 /* logo */
