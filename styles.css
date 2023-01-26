@@ -102,9 +102,23 @@ input[type=checkbox]:checked ~ .menu{
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CSS for banner */
 
-.banner h1,p {
+/* .banner h1,p {
 margin: 15;
 padding: 0;
 }
@@ -129,7 +143,7 @@ padding: 0;
     background-color:#f3f4f6;
     border-radius: 1rem;
     margin: 2px;
-    
+     */
 
      /* background-image: url("vincentiu-solomon-ln5drpv_ImI-unsplash (1).jpg");
     background-position: center;
@@ -139,9 +153,9 @@ padding: 0;
     background-position-x: 0;
     background-position-y: 0;  */
     
-}
 
-.explorebtn {
+
+/* .explorebtn {
     font-size: 20px;
     display: inline-block;
     border: 1px solid white;
@@ -156,6 +170,6 @@ padding: 0;
     background-color: white;
       color: #6b7280;
     
-}
+} */
 
 
