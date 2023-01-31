@@ -70,13 +70,17 @@ input[type=checkbox]{
     user-select: none;
 }
 
+
+
+
+
 /* this for when screen size is almost mobile size */
 
 @media (max-width: 768px) {
     .menu {
         display: none;
         position: absolute;
-        background-color: teal;
+        background-color: #d1d5db;
         right: 0;
         left: 0;
         text-align: center;
@@ -85,7 +89,7 @@ input[type=checkbox]{
 
     .menu li:hover{
 display: inline-block;
-background-color: #4c9e9e;
+background-color: #94a3b8;
 transition: 0.3s ease;
 
 
@@ -103,6 +107,31 @@ input[type=checkbox]:checked ~ .menu{
 
 
 }
+
+
+
+
+
+
+/* this is for when navigation link active  */
+
+menu a {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 250ms ease-in-out;
+}
+
+.active {
+    border-bottom: 3px solid #374151;
+  }
+
+
+
+
+
+
+
+
 
 
 .container{
@@ -150,6 +179,8 @@ footer {
 max-width: 1140px;
 margin: 0 auto;
 }
+
+
 
 
 
