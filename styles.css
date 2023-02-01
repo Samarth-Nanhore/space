@@ -203,85 +203,73 @@ margin: 0.5em 0 0.25em;
 }
 
 
+/* image container css here */
 
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-width: 32em;
+    margin: 2rem auto;
+    padding: 0 2.5em;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* css for img */
-
-/* 
-.vectorimg {
-    display: block;
-    text-align: center;
-} */
-
-
-/* CSS for banner */
-
-/* .banner h1,p {
-margin: 15;
-padding: 0;
 }
 
-.banner h1{
-    font-size: 2.8em;
-    padding: 10px 0;
-    font-weight: 900;
-}
+/* display: flex - "display: flex" in CSS is used to specify the layout of child elements within a container. It sets the container element as a flex container and allows its child elements (flex items) to be positioned along a horizontal or vertical axis, using flexible widths and heights. This makes it easier to align, distribute, and manage the size and position of the elements within the container.
 
-.banner p{
-    font-size: 1.1em;
-    font-weight: 100;
-    letter-spacing: 3px;
-}
+Flexbox is a modern layout model that provides a more efficient and flexible way to layout web pages compared to traditional methods. The "display: flex" property is the starting point for using flexbox, and allows you to control the direction of the main axis, wrap items, align items, and control the size and spacing of elements within the container. */
 
-.banner{
+
+/* flex-wrap: wrap - "flex-wrap: wrap" in CSS is used in conjunction with the "display: flex" property to control the behavior of items within a flex container when the size of the container is smaller than the combined size of the flex items.
+
+By default, flex items are set to "flex-wrap: nowrap", which means that they will not wrap to the next line. If the container is smaller than the combined size of the flex items, they will overflow the container horizontally.
+
+When "flex-wrap: wrap" is used, flex items are allowed to wrap to the next line if there is not enough space for them within the container. This allows for more flexible layout and better handling of responsive design. For example, you could use "flex-wrap: wrap" to ensure that items are always visible on smaller screens, or to control the number of items per row in a grid-style layout. */
+
+.image-container img {
     width: 100%;
-    padding:60px 0;
-    text-align: center;
-    color:#6b7280 ;
-    background-color:#f3f4f6;
-    border-radius: 1rem;
-    margin: 2px;
-     */
-
-     /* background-image: url("vincentiu-solomon-ln5drpv_ImI-unsplash (1).jpg");
-    background-position: center;
-    background-size: cover;
-     background-repeat: no-repeat; 
-     background-attachment: scroll;    
-    background-position-x: 0;
-    background-position-y: 0;  */
-    
-
-
-/* .explorebtn {
-    font-size: 20px;
-    display: inline-block;
-    border: 1px solid white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 300;
-    margin-top: 30px;
+    /* height: auto; */
+    height: 60%;
+    margin: 10px;
+    filter: grayscale(100%);
+    transition: filter 250ms ease-in-out;
 }
 
-.explorebtn:hover{
-    background-color: white;
-      color: #6b7280;
-    
-} */
+/* "filter: grayscale(100%)" in CSS is used to apply a grayscale effect to an element. It sets the grayscale value of an element to 100%, making it completely gray and effectively removing all color. */
+
+.image-container img:hover {
+    filter: grayscale(0%);
+}
+
+@media (min-width: 768px) {
+    .image-container img {
+        width: calc(33.33% - 20px);
+    }
+}
+
+.note {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
